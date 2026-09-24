@@ -13,6 +13,7 @@ public class Main {
         System.out.println(Aman.age + " " + Aman.name);
         System.out.println(Arrays.toString(Aman.arr));
         Aman.arr[0] = 100;
+        System.out.println(Arrays.toString(Aman.arr));
         System.out.println(Arrays.toString(anand.arr));
     }
 }
